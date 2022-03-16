@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_utility_texts",
+  "info": {
+    "displayName": "Text",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

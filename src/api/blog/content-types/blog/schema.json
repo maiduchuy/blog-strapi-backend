@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "welcomeMessage": {
+      "type": "string",
+      "required": true,
+      "default": "Welcome to my blog"
+    },
+    "welcomeSubMessage": {
+      "type": "string",
+      "default": "You can read about a lot of things here",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utility.seo",
+      "required": true
+    }
+  }
+}

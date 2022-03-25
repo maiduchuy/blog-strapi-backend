@@ -27,6 +27,12 @@
     "content": {
       "type": "richtext",
       "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utility.seo",
+      "required": true
     }
   }
 }

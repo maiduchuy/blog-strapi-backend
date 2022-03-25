@@ -17,13 +17,21 @@
       "required": true
     },
     "cv": {
-      "allowedTypes": ["files"],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
     },
     "content": {
       "type": "richtext",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utility.seo",
       "required": true
     }
   }

@@ -9,7 +9,8 @@
   "attributes": {
     "metaTitle": {
       "type": "string",
-      "required": true
+      "required": true,
+      "default": "[Names] | That Huy Guy"
     },
     "metaDescription": {
       "type": "string",

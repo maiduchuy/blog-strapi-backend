@@ -12,6 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "welcomeMessage": {
+      "type": "string",
+      "required": true,
+      "default": "Nhạc nhà trồng"
+    },
+    "welcomeSubMessage": {
+      "type": "string",
+      "required": true,
+      "default": "Không yêu đừng nói lời cay đắng"
+    },
     "content": {
       "type": "richtext",
       "required": true

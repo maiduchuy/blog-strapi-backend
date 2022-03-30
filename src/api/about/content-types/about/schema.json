@@ -12,6 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "welcomeMessage": {
+      "type": "string",
+      "default": "Một chút về mình",
+      "required": true
+    },
     "content": {
       "type": "richtext",
       "required": true

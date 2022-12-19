@@ -12,9 +12,9 @@
   "devDependencies": {},
   "dependencies": {
     "@strapi-community/strapi-provider-upload-google-cloud-storage": "^4.2.3",
-    "@strapi/plugin-i18n": "4.3.8",
-    "@strapi/plugin-users-permissions": "4.3.8",
-    "@strapi/strapi": "4.3.8",
+    "@strapi/plugin-i18n": "4.4.3",
+    "@strapi/plugin-users-permissions": "4.4.3",
+    "@strapi/strapi": "4.4.3",
     "pg": "8.6.0"
   },
   "author": {
@@ -22,10 +22,6 @@
   },
   "strapi": {
     "uuid": "39e66e24-e82c-467a-80c1-a278742ed91b"
-  },
-  "engines": {
-    "node": ">=12.x.x <=16.x.x",
-    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }

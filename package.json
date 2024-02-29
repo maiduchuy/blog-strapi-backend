@@ -12,9 +12,9 @@
   "devDependencies": {},
   "dependencies": {
     "@strapi-community/strapi-provider-upload-google-cloud-storage": "^4.2.3",
-    "@strapi/plugin-i18n": "4.7.0",
-    "@strapi/plugin-users-permissions": "4.7.0",
-    "@strapi/strapi": "4.7.0",
+    "@strapi/plugin-i18n": "4.11.4",
+    "@strapi/plugin-users-permissions": "4.11.4",
+    "@strapi/strapi": "4.11.4",
     "pg": "8.6.0"
   },
   "author": {
